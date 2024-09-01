@@ -8,7 +8,6 @@ int main()
 {
     srand(time(0));
     int tries,userinput,rng = 0;
-    rng = rand()% 100 +1;
     printf("%d\n",rng);
     printf("Hello, and welcome to this RNG game\n");
     printf("You will have to guess a randomly generated number from to 100\n");
@@ -37,5 +36,5 @@ which do the following:
 -Generate random number between 1 and 100
 -Take input from user until he guesses the correct answer
 -Inform the user whether his guess is less than or greater than the generated number
--If the user guess is correct stop taking input, congratulate the user, and print the NO. of trials he made to get the correct answer
+-If the user guess is correct stop taking input, congratulate the user, and print the NO. of trials he made to get theÂ correctÂ answer
 */

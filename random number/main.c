@@ -8,7 +8,6 @@ int main()
 {
     srand(time(0));
     int tries,userinput,rng = 0;
-    printf("%d\n",rng);
     printf("Hello, and welcome to this RNG game\n");
     printf("You will have to guess a randomly generated number from to 100\n");
     printf("if you guess the number incorrectly, the game will tell you if you are closer or not\n");
